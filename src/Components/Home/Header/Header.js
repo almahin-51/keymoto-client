@@ -59,7 +59,7 @@ const Header = ({ black }) => {
                         {
                             !user.photoURL ? <img className="img-fluid" src='https://i.ibb.co/WGhg6hq/download.png' alt="" /> : <img className="img-fluid" src={user?.photoURL} alt="" />
                         }
-                        <div className={toggle ? "drop_down" : "drop_down active"}>
+                        <div className={toggle ? "drop_down" : "drop_down actives"}>
                             {user.email && <h6 className="mt-2">Welcome</h6>}
                             {user.email && <h6 className="mt-2">{user.displayName}</h6>}
                             <div className="me-auto small">
@@ -106,7 +106,7 @@ const Header = ({ black }) => {
                                 }
                             </div>
 
-                            <div className={toggle ? "drop_down" : "drop_down active"}>
+                            <div className={toggle ? "drop_down" : "drop_down actives"}>
                                 <div className="w-100">
                                     {user.email && <h6 style={{ color: 'red' }} className="mt-2">Welcome</h6>}
                                     {user.email && <h6 style={{ color: 'blue' }} className="mt-2">{user.displayName}</h6>}

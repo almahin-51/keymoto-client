@@ -64,7 +64,7 @@ const Dashboard = () => {
                         {user.photoURL ? <img className="img-fluid rounded-circle" src={user?.photoURL} alt="" />
                             : <div className="menu-name">{user?.email?.slice(0, 1)}</div>}
                     </div>
-                    <div className={toggle ? "drop_down_dash" : "drop_down_dash active"}>
+                    <div className={toggle ? "drop_down_dash" : "drop_down_dash actives"}>
                         <div className="w-100">
                             {user.email && <h6 style={{ color: 'red' }} className="mt-2">Welcome</h6>}
                             {user.email && <h6 className="mt-2">{user.displayName}</h6>}
@@ -117,32 +117,28 @@ const Dashboard = () => {
                         <li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px',
-                            display: 'flex'
+                            borderRadius: '5px'
                         }} to={`${url}/my_profile`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div> My Profile</NavLink></li>
 
                         {
                             admin && <li><NavLink activeStyle={{
                                 backgroundColor: 'red',
                                 color: "white",
-                                borderRadius: '5px',
-                                display: 'flex'
+                                borderRadius: '5px'
                             }} to={`${url}/manage_all_orders`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div>Manage All orders</NavLink></li>
                         }
                         {
                             admin && <li><NavLink activeStyle={{
                                 backgroundColor: 'red',
                                 color: "white",
-                                borderRadius: '5px',
-                                display: 'flex'
+                                borderRadius: '5px'
                             }} to={`${url}/make-admin`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div> Make Admin</NavLink></li>
                         }
                         {
                             admin && <li><NavLink activeStyle={{
                                 backgroundColor: 'red',
                                 color: "white",
-                                borderRadius: '5px',
-                                display: 'flex'
+                                borderRadius: '5px'
                             }} to={`${url}/add_product`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div>Add Product</NavLink></li>
                         }
 
@@ -150,22 +146,19 @@ const Dashboard = () => {
                             !admin&&<li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                                borderRadius: '5px',
-                                display: 'flex'
+                                borderRadius: '5px'
                         }} to={`${url}/my_orders`} className="d-flex"><div className="slide-icon"><i className="fas fa-indent"></i></div> My Orders</NavLink></li>
                         }
                         <li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px',
-                            display: 'flex'
+                            borderRadius: '5px'
                         }} to={`${url}/payment`} className="d-flex"><div className="slide-icon"><i className="fas fa-shopping-cart"></i></div> Payment</NavLink></li>
 
                         <li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px',
-                            display: 'flex'
+                            borderRadius: '5px'
                         }} to={`${url}/review`} className="d-flex"><div className="slide-icon"><i className="fas fa-file-alt"></i></div> Review</NavLink></li>
 
                         <li><Button onClick={logInOut} className="d-flex m-0 w-100
