@@ -1,0 +1,432 @@
+/* Products Card  */
+.card-price {
+  color: red;
+  font-weight: 600;
+}
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.card-background {
+  background-color: #f8f8f8 !important;
+  transition: all .4s;
+  border-radius: 0% !important;
+  overflow: hidden;
+}
+.card-background:hover {
+  background-color: white !important;
+  box-shadow:  0 5px 32px rgb(0 0 0 / 10%);
+}
+
+.card-name {
+  transition: all .2s;
+  cursor: pointer;
+}
+.card-name:hover {
+  color: red;
+}
+
+.card-background img {
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.card-background img:hover {
+  transform: scale(1.1);
+}
+
+.card-titles {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+.card-title .branding {
+  padding: 0 30px;
+  margin: 10px 0;
+  border-right: 1px solid #ccc;
+}
+.card-title p {
+  font-size: 15px;
+  color: #646464;
+  text-transform: uppercase;
+}
+
+.engine-d i {
+  margin: 5px;
+}
+.engine-d div {
+  margin-left: 5px;
+}
+.engine-d p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom:5px !important;
+}
+.card-btn {
+  transition: all .2s;
+  font-weight: 500;
+  border: 1px solid transparent !important;
+  padding: 10px 20px;
+}
+.card-btn:hover {
+  color: red;
+  border: 1px solid #ccc !important;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #0f0f0f;
+}
+.footer-logo {
+  width: 120px;
+  text-align: center;
+}
+.footer-talk-card {
+  background-color: #222222;
+  display: flex;
+  padding: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.footer-logo-p{
+  color:  #ffffffb3 !important;
+}
+
+.footer-talk-card:hover i{
+  color: white !important;
+}
+.footer-talk-card:hover {
+  background-color:#e63618;
+
+}
+
+.footer-talk-card i {
+  color: #e63618;
+  transition: all .3s;
+}
+.footer-talk-card p {
+  color:  #ffffffb3;
+  font-weight: 400;
+  margin-bottom: 5px !important;
+}
+.footer-social-icon i {
+  color: #666666;
+  margin: 10px;
+  transition: all .2s;
+  cursor: pointer;
+}
+.footer-social-icon i:hover {
+  color: #e63618;
+}
+.footer-about p {
+  font-weight: 400;
+  margin-bottom: 8px !important;
+  cursor: pointer;
+  color: #ffffffb3;
+  transition: all .2s;
+}
+
+.footer-about p:hover {
+  color: #e03314;
+}
+.news div{
+  margin: 10px;
+}
+.news p {
+  color: #ffffffb3 !important;
+}
+.info p{
+  color: #ffffffb3;
+}
+.footer .row {
+  border-bottom: 1px solid #4e4e4eb3;
+}
+.footer-bottom {
+  color: #ffffffb3;
+}
+
+/* Sign up Component */
+.my-btn {
+  font-weight: 900 !important;
+  border: 1px solid #ccc !important;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  background-color: transparent !important;
+  color: #fff !important;
+  padding: 10px 16px;
+}
+
+.all-products {
+  padding: 120px 0 50px;
+}
+
+.form-control:focus {
+  border-color: #21242694 !important;   
+  box-shadow: 0 0 0 0.25rem #58585812 !important;
+}
+
+.background {
+  position: relative;
+  padding: 100px 0 50px;
+}
+
+.background::after {
+  content: '';
+  background: url('./image/img-home-slideshow-3.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.signUp-form {
+  width: calc(193px + 1000 * ((100vw- 165px) / 3037));
+  z-index: 5;
+  position: relative;
+}
+.form-div{
+  position: relative;
+  z-index: 2;
+}
+.about-main {
+  position: relative;
+}
+.about-gallery {
+  position: absolute;
+  width: 550px !important;
+  bottom: 0%;
+  left: 75%;
+  background-color: white;
+  padding:  15px 5px;
+}
+.about-head h1{
+  margin: 10px 0 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.about-details p {
+  color: #6c6c6c;
+}
+
+.p-details {
+  padding: 120px 0 50px;
+}
+.form-modal {
+  font-family: oswald;
+}
+.dashboard {
+  font-family: oswald;
+}
+.dashboard-details {
+  font-family: oswald;
+  width: 290px !important;
+}
+.offcanvas-body a,
+.offcanvas-body button
+{
+  color: #0f0f0f;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: all .2s;
+}
+
+.dashboard-slide a:hover,
+.dashboard-slide button:hover {
+  background-color: red !important;
+  color: white;
+  border-radius: 5px;
+}
+.offcanvas-title {
+  color: red;
+}
+.offcanvas-body {
+  position: relative;
+}
+
+.offcanvas-body button {
+  background-color: transparent !important;
+  border: none;
+  align-items: center;
+}
+
+.slide-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+}
+
+.dashboard-slide li {
+  list-style: none;
+  margin-bottom: 5px !important;
+}
+.back-home button:hover{
+  color: red !important;
+}
+.back-home{
+  position: absolute;
+  bottom: 2%;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  right: 0%;
+}
+
+.dashboard-slider-btn {
+  background-color: transparent !important;
+  color: black !important;
+  padding: 10px 15px !important;
+  border-color: black !important;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  padding:10px 15px;
+  border-radius: 5px;
+  box-shadow:  0 5px 32px rgb(0 0 0 / 10%);
+  position: relative;
+}
+
+.my-profile {
+  border: 1px solid #00000014;
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow:  0 5px 32px rgb(0 0 0 / 14%);;
+  margin: 0 auto;
+  transform: translateY(90%);
+}
+
+
+.react-stars-wrapper-023014385767066559 {
+  justify-content: flex-end !important;
+}
+
+
+
+
+.sign-review {
+  padding: 20px 10px;
+  text-align: center;
+  margin: 50px 0;
+  height: 100%;
+}
+
+
+.review-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+    font-size: 25px;
+}
+
+.review-profile {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
+
+
+
+
+
+
+
+.my-profile-pic {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+.status {
+  border: none;
+  background-color: transparent;
+}
+
+.status.on-going,
+.Going{
+  color: #ff9d00 !important;
+}
+.status.pending,
+.Pending {
+  color: red !important;
+}
+.status.done,
+.Done {
+  color: #06cc06 !important;
+}
+
+
+.App {
+  font-family: oswald;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header-second {
+  color: black;
+  font-weight: 900;
+  font-family: oswald;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

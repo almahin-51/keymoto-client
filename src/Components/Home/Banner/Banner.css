@@ -1,0 +1,52 @@
+.my-sliders {
+    position: relative;
+}
+
+.my-sliders img {
+    object-fit: cover !important;
+}
+
+.slider {
+    text-align: start !important;
+    top: 25%;
+    right: 0;
+}
+
+.heigh-light{
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Oswald;
+}
+.slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;    
+    font-family: oswald;
+    font-size: calc(50px + 50 * ((100vw - 320px) / 1920));
+}
+.slider h2 {
+    margin-top: 20px;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.9);
+    color: transparent;
+    font: 700 200px/1 Oswald;
+    font-size: calc(65px + 200 * ((100vw - 320px) / 1920));
+}
+
+.banner-btn {
+    background-color:#e63618 !important;
+    border: transparent !important;
+    color: white;
+    font-size: 16px;
+    font-weight: 700 !important;
+    border-radius: 0px !important;
+    padding: 15px 20px !important;
+    font-family: Oswald;
+}
+
+@media only screen and (max-width: 768px) {
+    .slider {
+        top: 10%;
+        text-align: center !important;
+    }
+}

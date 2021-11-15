@@ -1,0 +1,166 @@
+.header-link a {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+.drop_down {
+    display: none;
+    position: absolute;
+    top: 85px;
+    background-color: #fffffffa;
+    right: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    width: 155px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+
+.drop_down_dash{
+    top: 103% !important;
+    right: 0% !important;
+    display: none;
+    position: absolute;
+    top: 85px;
+    background-color: #fffffffa;
+    right: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    width: 155px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.active {
+    display: block !important;
+}
+.manage {
+    margin-right: 10px;
+}
+.manage button {
+    font-size: 13px;
+    padding: 5px;
+}
+.small {
+    display: none !important;
+}
+
+.header-logo {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.black {
+    color: black !important;
+}
+
+
+
+
+.drop-down-box {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.drop-down-box img{
+    border-radius: 50%;
+}
+
+.lg-menu-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.menu-name {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: auto;
+}
+
+.fa-two {
+    color: #ffae00;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.review-card {
+    border: 1px solid #00000014;
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow:  0 5px 32px rgb(0 0 0 / 14%);;
+  margin: 0 auto;
+}
+
+
+.lg-box a {
+    color: white;
+    text-decoration: none;
+}
+.lg-box a:hover,
+.header-link a:hover {
+    color: red !important;
+}
+.black-2 a{
+    color: black;
+}
+
+
+.text-red{
+  color: red;
+}
+
+
+@media (max-width: 768px) {
+    .small {
+        display: block !important;
+    }
+    .small a {
+        color: #000;
+        font-weight: 600;
+    }
+    .header-link {
+        display: none;
+    }
+    .manage {
+        display: none;
+    }
+    .lg-box{
+        display: none;
+    }
+    .about-gallery {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: auto !important;
+    }
+    .about-head {
+        margin-top: 30px ;
+        text-align: center;
+    }
+
+    .drop-down-box{
+        display: block;
+    }
+}
