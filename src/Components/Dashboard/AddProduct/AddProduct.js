@@ -36,9 +36,9 @@ const AddProduct = () => {
     }
 
     return (
-        <div className="container mb-5 pb-4">
+        <div className="container mb-5 pb-4 px-0">
             <h2 className="fw-bold text-center my-4 text-red">Add New Product</h2>
-            <form id="addProduct" onSubmit={handleFormSubmit} className=" px-3 signUp-form">
+            <form id="addProduct" onSubmit={handleFormSubmit} className="signUp-form">
                 <div className="d-flex w-100">
                     <Form.Floating className="mb-3 w-50 me-3">
                         <Form.Control

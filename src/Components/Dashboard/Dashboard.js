@@ -117,28 +117,32 @@ const Dashboard = () => {
                         <li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px'
+                            borderRadius: '5px',
+                            display: 'flex'
                         }} to={`${url}/my_profile`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div> My Profile</NavLink></li>
 
                         {
                             admin && <li><NavLink activeStyle={{
                                 backgroundColor: 'red',
                                 color: "white",
-                                borderRadius: '5px'
+                                borderRadius: '5px',
+                                display: 'flex'
                             }} to={`${url}/manage_all_orders`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div>Manage All orders</NavLink></li>
                         }
                         {
                             admin && <li><NavLink activeStyle={{
                                 backgroundColor: 'red',
                                 color: "white",
-                                borderRadius: '5px'
+                                borderRadius: '5px',
+                                display: 'flex'
                             }} to={`${url}/make-admin`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div> Make Admin</NavLink></li>
                         }
                         {
                             admin && <li><NavLink activeStyle={{
                                 backgroundColor: 'red',
                                 color: "white",
-                                borderRadius: '5px'
+                                borderRadius: '5px',
+                                display: 'flex'
                             }} to={`${url}/add_product`} className="d-flex"><div className="slide-icon"><i className="fas fa-user"></i></div>Add Product</NavLink></li>
                         }
 
@@ -146,19 +150,22 @@ const Dashboard = () => {
                             !admin&&<li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px'
+                                borderRadius: '5px',
+                                display: 'flex'
                         }} to={`${url}/my_orders`} className="d-flex"><div className="slide-icon"><i className="fas fa-indent"></i></div> My Orders</NavLink></li>
                         }
                         <li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px'
+                            borderRadius: '5px',
+                            display: 'flex'
                         }} to={`${url}/payment`} className="d-flex"><div className="slide-icon"><i className="fas fa-shopping-cart"></i></div> Payment</NavLink></li>
 
                         <li><NavLink activeStyle={{
                             backgroundColor: 'red',
                             color: "white",
-                            borderRadius: '5px'
+                            borderRadius: '5px',
+                            display: 'flex'
                         }} to={`${url}/review`} className="d-flex"><div className="slide-icon"><i className="fas fa-file-alt"></i></div> Review</NavLink></li>
 
                         <li><Button onClick={logInOut} className="d-flex m-0 w-100

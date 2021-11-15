@@ -157,7 +157,7 @@ p {
   border-radius: 0 !important;
   text-transform: uppercase;
   background-color: transparent !important;
-  color: #fff !important;
+  color: #000 !important;
   padding: 10px 16px;
 }
 
@@ -189,7 +189,7 @@ p {
 }
 
 .signUp-form {
-  width: calc(193px + 1000 * ((100vw- 165px) / 3037));
+  width: 100%;
   z-index: 5;
   position: relative;
 }
