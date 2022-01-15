@@ -54,6 +54,7 @@ const MyOrder = () => {
             <th>Name</th>
             <th>Email</th>
             <th>Bike Model Name</th>
+            <th>Date</th>
             <th>Status</th>
             <th>Delete</th>
           </tr>
@@ -64,6 +65,7 @@ const MyOrder = () => {
               <td>{product.name}</td>
               <td>{product.email}</td>
               <td>{product?.bike?.modelName}</td>
+              <td>{product?.date}</td>
               <td className={product.status}>{product.status}</td>
               <td
                 className="delete-btn"

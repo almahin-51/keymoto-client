@@ -9,17 +9,17 @@ p {
 }
 .card-background {
   background-color: #f8f8f8 !important;
-  transition: all .4s;
+  transition: all 0.4s;
   border-radius: 0% !important;
   overflow: hidden;
 }
 .card-background:hover {
   background-color: white !important;
-  box-shadow:  0 5px 32px rgb(0 0 0 / 10%);
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
 }
 
 .card-name {
-  transition: all .2s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 .card-name:hover {
@@ -28,7 +28,7 @@ p {
 
 .card-background img {
   overflow: hidden;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .card-background img:hover {
@@ -62,10 +62,10 @@ p {
 .engine-d p {
   font-size: 15px;
   font-weight: 300;
-  margin-bottom:5px !important;
+  margin-bottom: 5px !important;
 }
 .card-btn {
-  transition: all .2s;
+  transition: all 0.2s;
   font-weight: 500;
   border: 1px solid transparent !important;
   padding: 10px 20px;
@@ -74,7 +74,6 @@ p {
   color: red;
   border: 1px solid #ccc !important;
 }
-
 
 /* Footer */
 .footer {
@@ -90,34 +89,33 @@ p {
   padding: 20px;
   border-radius: 3px;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.footer-logo-p{
-  color:  #ffffffb3 !important;
+.footer-logo-p {
+  color: #ffffffb3 !important;
 }
 
-.footer-talk-card:hover i{
+.footer-talk-card:hover i {
   color: white !important;
 }
 .footer-talk-card:hover {
-  background-color:#e63618;
-
+  background-color: #e63618;
 }
 
 .footer-talk-card i {
   color: #e63618;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .footer-talk-card p {
-  color:  #ffffffb3;
+  color: #ffffffb3;
   font-weight: 400;
   margin-bottom: 5px !important;
 }
 .footer-social-icon i {
   color: #666666;
   margin: 10px;
-  transition: all .2s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 .footer-social-icon i:hover {
@@ -128,19 +126,19 @@ p {
   margin-bottom: 8px !important;
   cursor: pointer;
   color: #ffffffb3;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .footer-about p:hover {
   color: #e03314;
 }
-.news div{
+.news div {
   margin: 10px;
 }
 .news p {
   color: #ffffffb3 !important;
 }
-.info p{
+.info p {
   color: #ffffffb3;
 }
 .footer .row {
@@ -157,8 +155,14 @@ p {
   border-radius: 0 !important;
   text-transform: uppercase;
   background-color: transparent !important;
-  color: #000 !important;
+  color: #000;
   padding: 10px 16px;
+}
+
+.card-style {
+  background-color: rgba(0, 0, 0, 0.7803921568627451);
+  padding: 40px 20px;
+  border-radius: 15px;
 }
 
 .all-products {
@@ -166,7 +170,7 @@ p {
 }
 
 .form-control:focus {
-  border-color: #21242694 !important;   
+  border-color: #21242694 !important;
   box-shadow: 0 0 0 0.25rem #58585812 !important;
 }
 
@@ -176,8 +180,8 @@ p {
 }
 
 .background::after {
-  content: '';
-  background: url('./image/img-home-slideshow-3.jpg');
+  content: "";
+  background: url("./image/img-home-slideshow-3.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -193,7 +197,7 @@ p {
   z-index: 5;
   position: relative;
 }
-.form-div{
+.form-div {
   position: relative;
   z-index: 2;
 }
@@ -206,9 +210,9 @@ p {
   bottom: 0%;
   left: 75%;
   background-color: white;
-  padding:  15px 5px;
+  padding: 15px 5px;
 }
-.about-head h1{
+.about-head h1 {
   margin: 10px 0 15px;
   text-transform: uppercase;
   font-weight: 900;
@@ -231,15 +235,14 @@ p {
   width: 290px !important;
 }
 .offcanvas-body a,
-.offcanvas-body button
-{
+.offcanvas-body button {
   color: #0f0f0f;
   text-decoration: none;
   display: block;
   padding: 10px 20px;
   font-size: 17px;
   font-weight: 600;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .dashboard-slide a:hover,
@@ -272,10 +275,10 @@ p {
   list-style: none;
   margin-bottom: 5px !important;
 }
-.back-home button:hover{
+.back-home button:hover {
   color: red !important;
 }
-.back-home{
+.back-home {
   position: absolute;
   bottom: 2%;
   display: flex;
@@ -293,30 +296,32 @@ p {
 .dashboard-header {
   display: flex;
   justify-content: space-between;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
-  box-shadow:  0 5px 32px rgb(0 0 0 / 10%);
+  box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
   position: relative;
 }
 
 .my-profile {
   border: 1px solid #00000014;
   width: 350px;
+  height: 300px;
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  box-shadow:  0 5px 32px rgb(0 0 0 / 14%);;
+  box-shadow: 0 5px 32px rgb(0 0 0 / 14%);
   margin: 0 auto;
-  transform: translateY(90%);
 }
 
+.profile {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
 
 .react-stars-wrapper-023014385767066559 {
   justify-content: flex-end !important;
 }
-
-
-
 
 .sign-review {
   padding: 20px 10px;
@@ -325,22 +330,21 @@ p {
   height: 100%;
 }
 
-
 .review-img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: white;
-    border: 1px solid #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: auto;
-    font-size: 25px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: auto;
+  font-size: 25px;
 }
 
 .review-profile {
@@ -348,12 +352,6 @@ p {
   height: 100px;
   margin: 10px auto;
 }
-
-
-
-
-
-
 
 .my-profile-pic {
   width: 80px;
@@ -374,7 +372,7 @@ p {
 }
 
 .status.on-going,
-.Going{
+.Going {
   color: #ff9d00 !important;
 }
 .status.pending,
@@ -385,7 +383,6 @@ p {
 .Done {
   color: #06cc06 !important;
 }
-
 
 .App {
   font-family: oswald;

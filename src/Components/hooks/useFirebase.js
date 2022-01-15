@@ -133,7 +133,7 @@ const useFirebase = () => {
 
   // Save user To database
   const saveUser = (email, displayName, method) => {
-    const user = { email, displayName, role: "general" };
+    const user = { email, displayName };
     fetch("https://stormy-everglades-36632.herokuapp.com/users", {
       method: method,
       headers: {
